@@ -6,13 +6,14 @@
 
 An exome from a patient with a retinal disease has been analyzed. The sequence of a mutated exon (109 bp) is available on Moodle.
 
+Go to the [Ensembl genome browser](https://www.ensembl.org/index.html).
+
+
 ####  Mapping an exon sequence to the human genome
 
 Open the BLAST/BLAT page. 
 
-> :question: What is the difference between BLAST and BLAT?
-
-> :question: Is BLAT relevant to map our transcript on the genome? 
+> :question: Is BLAT relevant to map our transcript on the genome? Why doesn't use BLAST?
 
 Perform the search.
 
@@ -34,16 +35,17 @@ Select the gene.
 
 > :question: How many exons are present in this transcript?
 
-**Protein: function, GO annotation, and expression **
 
-In a new window, search for the protein encoded by this gene in SwissProt.
+**Protein: function, GO annotation, and expression**
+
+In a new window, search for the protein encoded by this gene in [SwissProt](https://www.uniprot.org/).
 
 > :question: What is the protein function according to SwissProt?
 
 > :question: GO annotations: look at the list of synonyms associated with the GO molecular function of the protein. Does standardization make sense in this case?
 
 > :question: In which tissue is the gene expressed?
-  
+
 **Phenotype (Ensembl, Gene tab)**
 
 > :question: Which phenotype(s) is linked to this gene? Is it consistent with the exome analysis?
@@ -64,14 +66,14 @@ Configure this page (left panel) to display:
 
 > :question: Compare information provided by Genscan (ab initio prediction), cDNA and protein alignments.
 
-**Repeatitive elements**
+**Repetitive elements**
 
 Configure the page to display repeats (Repeat regions/All repeats) and conserved elements using Comparative genomics:
 - Conservation regions/Constrained elements for eutherian mammals
 - BLASTz/LASTz alignments with Chimpanzee, Mouse, crocodile, Zebrafish.
   
 > :question: What is conserved in these different species?
-> 
+
 Retrieve the genomic region with 10000 bp 5’ and 3’ flanking sequence using Export data (fasta sequence, unmasked, text) or use the genomic region available on Moodle.
 
 Analyze this sequence with [RepeatMasker](www.repeatmasker.org/) using default parameters (don’t hesitate to refresh the result page).
@@ -94,17 +96,17 @@ Display the same region in the UCSC genome browser (by following the hypertext l
 
 Another patient with a retinal disease exhibits several mutations including a mutation in a gene of completely unknown function. We only know that this gene is co-expressed with other genes (list available on Moodle).
 
-GO enrichment analysis
+**GO enrichment analysis**
 
 Use the website of the [Gene Ontology](http://www.geneontology.org/).
 
-> :question: Perform a functional enrichment analysis (Biological process ontology) of this list of genes in comparison to human genes.
+Perform a functional enrichment analysis (Biological process ontology) of this list of genes in comparison to human genes.
 
 > :question: What is the meaning of the different columns in the result table?
 
 > :question: Sort the results according to the P Value. Is the mutation a good candidate to explain the retinal disease of the patient?
 
-**Network analysis with STRING **
+**Network analysis with STRING**
 
 Use the website of [String](https://string-db.org/).
 
